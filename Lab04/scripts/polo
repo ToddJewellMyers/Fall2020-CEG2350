@@ -1,0 +1,9 @@
+#! /bin/bash
+# cd << 'ThisIsTheWay.txt'
+
+#cd$(source/home/ubuntu/Fall2020-CEG/Lab04/scripts/ThisIsTheWay.txt)
+
+pathlocation=`cat /home/ubuntu/Fall2020-CEG2350/Lab04/scripts/ThisIsTheWay.txt`
+cd $pathlocation
+rm /home/ubuntu/Fall2020-CEG2350/Lab04/scripts/ThisIsTheWay.txt
+echo "Location text file removed for cleanliness sir."
